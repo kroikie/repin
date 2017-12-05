@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "Repin",
+    "description": "This extension allows the user backup pinned tabs to a file then restore a set of pinned tabs from that file.",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html",
+        "default_title": "Manage pinned tabs"
+    },
+    "permissions": [
+        "tabs",
+        "storage"
+    ]
+}
